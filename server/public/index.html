@@ -17,9 +17,9 @@
         <div class="col-md-4">
            <p ng-repeat="photo in vm.photosArray">
                {{photo.name}}
-                <img ng-src="{{photo.url}}"/>
-                <button type="submit" class="btn btn-info">Love</button>
-                
+                <img ng-src="{{photo.url}}" width="200" height="200"/>
+                <button ng-click="vm.addClicks()" type="submit" class="btn btn-info">Love</button>
+                <span>{{vm.buttonClicks}}</span>
            </p>
         </div>
     </div>
