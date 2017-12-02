@@ -14,10 +14,11 @@
     <h1>The Gallery of My Life</h1>
 <div class="container">
     <div class="row">
-        <div class="col-md-4">
-           <p ng-repeat="photo in vm.photosArray">
+        <div class="col-md-4" ng-repeat="photo in vm.photosArray">
+           <p>
                {{photo.name}}
-                <img ng-src="{{photo.url}}" width="200" height="200"/>
+                <img ng-click="vm.addText()" ng-src="{{photo.url}}" width="200" height="200" />
+                <div class="textOverlay">{{photo.text}}</div>
                 <button ng-click="vm.addClicks()" type="submit" class="btn btn-info">Love</button>
                 <span>{{vm.buttonClicks}}</span>
            </p>

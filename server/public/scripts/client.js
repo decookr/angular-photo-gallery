@@ -9,6 +9,12 @@ app.controller('PhotoController', function (){
         {
            name: 'Family',
            url: '/images/family.jpg',
+           text: 'family is the most important thing in the world to me'
+        },
+        {
+            name: 'Drums',
+            url: '/images/drums.jpg',
+            text: 'drumming is one of my favorite hobbies'
         }
     ];
 
@@ -16,4 +22,12 @@ app.controller('PhotoController', function (){
         self.buttonClicks = clicks++;
        console.log('clicks', clicks);
     }
+
+    self.addText=function(){
+        self.imageClick = self.photosArray.text;
+        console.log('image clicked', self.photosArray.text);
+        
+    }
+
 });
+
