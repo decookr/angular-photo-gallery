@@ -15,12 +15,11 @@
 <div class="container">
     <div class="row">
         <div class="col-md-4" ng-repeat="photo in vm.photosArray">
-           <p>
-               {{photo.name}}
-                <img ng-click="vm.addText()" ng-src="{{photo.url}}" width="200" height="200" />
-                <div class="textOverlay">{{photo.text}}</div>
-                <button ng-click="vm.addClicks()" type="submit" class="btn btn-info">Love</button>
-                <span>{{vm.buttonClicks}}</span>
+            <p>
+                <img ng-click="showText = !showText" ng-src="{{photo.url}}" width="200" height="200" />
+                <div ng-show="showText" class="textOverlay">{{photo.text}}</div>
+                <button ng-click="count = count+1" type="submit" class="btn btn-info">Love</button>
+                <span>{{count}}</span>
            </p>
         </div>
     </div>
