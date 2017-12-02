@@ -7,13 +7,31 @@ app.controller('PhotoController', function (){
     
     self.photosArray =[ 
         {
-            id: 1,
             name: 'Family',
             url: '/images/family.jpg',
             text: 'family is the most important thing in the world to me'
         },
         {
-            id: 2,
+            name: 'Amy',
+            url: '/images/amy.jpg',
+            text: 'my wife, Amy, is my best friend and my favorite person in the entire world'
+        },
+        {
+            name: 'Noah',
+            url: '/images/noah.jpg',
+            text: 'my baby boy, Noah, brings me so much laughter and joy'
+        },
+        {
+            name: 'Dad',
+            url: '/images/dad.jpg',
+            text: 'my dad passed away in 2010, but his influence still guides me in every decision I make'
+        },
+        {
+            name: 'Mom',
+            url: '/images/mom.jpg',
+            text: 'my mom is one of the most loving and supportive people I know'
+        },
+        {
             name: 'Drums',
             url: '/images/drums.jpg',
             text: 'drumming is one of my favorite hobbies'
