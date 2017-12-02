@@ -2,32 +2,41 @@
     position: relative;
     text-align: center;
     color: black;
+    background-color: #FCD0A1;
+    height: 5px;
 }
 
 .col-md-4 {
     background-color: #829399;
     padding: 20px;
 }
+
 .textOverlay {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    background-color: lightgray;
+    background-color: #FCD0A1;
+    opacity: 0.98;
+    font-weight: bold;
 }
 
 h1 {
     text-align: center;
+    font-size: 3em;
+    color: #D0F4EA;
+    
 }
 
 img {
-    border: 3px solid;
-    border-color: #E8FCC2;
+    border: 2px solid;
+    border-color: #FCD0A1;
 }
 img:hover {
     opacity: 0.5;
 }
+
 body {
     background-color: #545F66;
     color: #D0F4EA;
