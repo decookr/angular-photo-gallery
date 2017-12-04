@@ -41,3 +41,18 @@ body {
     background-color: #545F66;
     color: #D0F4EA;
 }
+
+.row {
+    border: 4px solid;
+    border-color: #FCD0A1;
+}
+
+.jumbotron {
+    background-color: #D0F4EA;
+    color: #545F66;
+}
+
+.btn {
+    background-color: #D0F4EA;
+    color: #545F66;
+}
