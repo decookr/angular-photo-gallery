@@ -56,3 +56,8 @@ body {
     background-color: #D0F4EA;
     color: #545F66;
 }
+
+span {
+    color: #D0F4EA;
+    font-size: 1.25em;
+}

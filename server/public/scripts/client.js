@@ -1,9 +1,9 @@
 var app = angular.module('PhotosApp', []);
-app.controller('PhotoController', function (){
+app.controller('PhotoController', function () {
     var self = this;
     var clicks = 0;
-    
-    self.photosArray =[ 
+
+    self.photosArray = [
         {
             name: 'Family',
             url: '/images/family.jpg',
@@ -37,7 +37,4 @@ app.controller('PhotoController', function (){
     ];
 
 
-
-
 });
-
